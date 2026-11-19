@@ -1,0 +1,10 @@
+# Never commit secrets, local state or class data
+node_modules/
+.wrangler/
+.dev.vars
+private/
+*.log
+*.local
+.DS_Store
+roster*.ts
+roster*.json
